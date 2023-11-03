@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+        
+        <script src="/sites/default/files/google_tag/tm_gtm_code/google_tag.script.js?s1xoga" defer></script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="IE=edge,chrome=1,chrome=1" http-equiv="X-UA-Compatible">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <link rel="icon" href="/themes/custom/tmtheme/img/favicon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/tmtheme/img/favicon32x32.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/themes/custom/tmtheme/img/apple-touch-icon.png">
+        <title>TM Branding Sample Dev</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/164832284b.js" crossorigin="anonymous"></script>
+        <!---
+        <link rel="stylesheet" media="all" href="css/one.css" />
+             -->
+        <link rel="stylesheet" media="all" href="css/branddevguide.css" />
+        <link rel="stylesheet" media="all" href="css/tmbrand2022.css" />
+        
+    </head>
+
+    <body class="row">
+    <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-2 col-sm-2">
+        <!--Sidebar-->
+        <div class="sidebar d-flex flex-column p-3 " aria-label="page navigation" >
+            <div href="" class="">
+                <img src="assets/logo/TM_ReverseWhite_logo.png" height="100px">
+            </div>
+            <div class="d-flex">TM Branding Dev Guide</div>
+            <hr>
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#setting_up" class="nav-link">
+                        Setting Up
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#brand_colors" class="nav-link">
+                        Brand Colors
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#neutral_colors" class="nav-link">
+                        Neutral Colors
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#type" class="nav-link">
+                        Typography
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#buttons" class="nav-link">
+                        Buttons
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#forms" class="nav-link">
+                        Forms
+                    </a>
+                </li>
+                
+            </ul>
+            <hr>
+            <div style="color:#f9f9f9; opacity: 0.3; font-size:12px;" >
+                An initiative from @aidielekal
+            </div>
+        </div>
+    </div>
+    <div class=" col-xxl-8 col-xl-8 col-lg-9 col-md-10 col-sm-10">
+
+        <section class="section " id="home">
+            <h1>TM Branding Dev Sample</h1>
+            <p>
+                Reference: <a target="_blank" href="https://www.tm.com.my/brand-centre/our-brands/tm#applications">TM Brand Centre</a><br>
+                Some element are not accurate as per guideline (like padding and sizing value)<br>
+                This document is only for reference and guideline, not indicating any final product.<BR><BR>
+                The code are scrapped and reiterated from <a href="https://www.tm.com.my">tm.com.my</a>.
+            </p>
+        </section>
+
+        <section class="section " id="setting_up">
+            <h3>Setting Up</h3>
+            <p>
+                <ol>
+                    <li><strong>Font File</strong>: 'HK Grotesk Wide' and 'tmicon' are included in <code>/css/fonts</code> folder. Other fonts (Roboto & DM Sans) are accessible using Google Fonts.
+                                                    This file is important to ensure elements are working.</li>
+                    <li><strong>Assets File</strong>: Included in <code>/assets</code> folder. Might be incomplete</li>
+                    <li>The <strong>only</strong> CSS file you needed is <code>/css/tmbrand2022.css</code></li>
+                    <li>Use <strong>Bootstrap 5</strong>.</li>     
+                    <li>Replace any code that linked to your directory (linked css,js,font files etc)</li>               
+                </ol>
+            </p>
+        </section>
+        
+        <section class="section " id="brand_colors">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h3>Branding Colors</h3>
+                    <p>Color as per Branding<br>TM Group use "Cobalt Blue" as primary color and "Accent" as secondary colors.
+                        <br>More details on <a target="_blank" href="https://www.tm.com.my/brand-centre/our-brands/tm#applications">TM Brand Centre Website</a></p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h5>Primary Colors</h5>
+                    <div class="row">
+                        <div class="col-12" style="background-color: var(--tm-primary); padding:16px;">
+                            <h4 style="color:#fff;">Cobalt Blue</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> 2736C <br>
+                                <strong>CMYK </strong> 100 67 0 0 <br>
+                                <strong>RGB </strong> 24 0 231 <br>
+                                <strong>HEX </strong> 1800E7 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: var(--tm-navy-blue); padding:16px;">
+                            <h4 style="color:#fff;">Navy Blue</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> Blue 072C <br>
+                                <strong>CMYK </strong> 100 8 0 10 <br>
+                                <strong>RGB </strong> 24 0 146 <br>
+                                <strong>HEX </strong> 180092 
+                            </p>
+                        </div>
+                        <div class="col-6" style="background-color: var(--tm-dark-blue); padding:16px;">
+                            <h4 style="color:#fff;">Dark Blue</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> 2768C <br>
+                                <strong>CMYK </strong> 100 82 0 40 <br>
+                                <strong>RGB </strong> 6 1 58 <br>
+                                <strong>HEX </strong> 06013A 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: var(--tm-light-blue); padding:16px;">
+                            <h4 style="color:#000;">Light Blue</h4>
+                            <p style="color:#000;"><strong>Pantone </strong> 2716C <br>
+                                <strong>CMYK </strong> 39 21 0 0 <br>
+                                <strong>RGB </strong> 153 182 255 <br>
+                                <strong>HEX </strong> 99B6FF 
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+
+                    <h5>Secondary Colors</h5>
+                    <div class="row">
+                        <div class="col-12" style="background-color: var(--tm-accent-orange); padding:16px;">
+                            <h4 style="color:#fff;">Accent Orange</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> Orange 021C <br>
+                                <strong>CMYK </strong> 0 65 100 0 <br>
+                                <strong>RGB </strong> 255 94 0 <br>
+                                <strong>HEX </strong> FF5E00 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: var(--tm-orange); padding:16px;">
+                            <h4 style="color:#fff;">Orange</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> 2018C <br>
+                                <strong>CMYK </strong> 0 47 78 0 <br>
+                                <strong>RGB </strong> 255 122 0 <br>
+                                <strong>HEX </strong> FF7A00
+                            </p>
+                        </div>
+                        <div class="col-6" style="background-color: var(--tm-light-orange); padding:16px;">
+                            <h4 style="color:#000;">Light Orange</h4>
+                            <p style="color:#000;"><strong>Pantone </strong> 2017C <br>
+                                <strong>CMYK </strong> 0 31 46 0 <br>
+                                <strong>RGB </strong> 247 285 134 <br>
+                                <strong>HEX </strong> F7B986 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: var(--tm-red); padding:16px;">
+                            <h4 style="color:#fff;">Red</h4>
+                            <p style="color:#fff;"><strong>Pantone </strong> 2349C <br>
+                                <strong>CMYK </strong> 0 90 93 0 <br>
+                                <strong>RGB </strong> 216 46 0 <br>
+                                <strong>HEX </strong> D82E00
+                            </p>
+                        </div>
+                    </div>                
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section class="section " id="neutral_colors">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h3>Neutral Colors</h3>
+                    <p>For reference and optional use,<br>Avoid use of pure black(#000000) and white(#FFFFFF) on text and content to reduce eye strain on readers.<br>
+                        Use Dark and Light instead.<br>
+                        Existing bootstrap/ scss color also can be used.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-6" style="background-color: #ffffff; padding:16px;">
+                            <h4 style="color:#2E2E2E;">White</h4>
+                            <p style="color:#2E2E2E;">
+                                <strong>HEX </strong> #FFFFFF
+                            </p>
+                        </div>
+                        <div class="col-6" style="background-color: #f9f9f9; padding:16px;">
+                            <h4 style="color:#2e2e2e;">Light</h4>
+                            <p style="color:#2e2e2e;">
+                                <strong>HEX </strong> #f9f9f9
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: #000000; padding:16px;">
+                            <h4 style="color:#f9f9f9;">Black</h4>
+                            <p style="color:#f9f9f9;">
+                                <strong>HEX </strong> #000000
+                            </p>
+                        </div>
+                        <div class="col-6" style="background-color: #2e2e2e; padding:16px;">
+                            <h4 style="color:#f9f9f9;">Dark</h4>
+                            <p style="color:#f9f9f9;">
+                                <strong>HEX </strong> #2e2e2e
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6" style="background-color: #BEBEBE; padding:16px;">
+                            <h4 style="color:#2e2e2e;">Disabled</h4>
+                            <p style="color:#2e2e2e;">
+                                <strong>HEX </strong> #BEBEBE
+                            </p>
+                        </div>
+                    </div>           
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section class="section " id="type">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <h3>Typography</h3>
+                    <p>Fonts and Type style as per Branding.</p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <h1>Aa</h1>
+                            <p>Heading 1<br>HK Grotesk Wide Black</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h2>Aa</h2>
+                            <p>Heading 2<br>HK Grotesk Wide Black</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h3>Aa</h3>
+                            <p>Heading 3<br>HK Grotesk Wide Black</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h4>Aa</h4>
+                            <p>Heading 4<br>HK Grotesk Wide Black</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <h5>Aa</h5>
+                            <p>Heading 5<br>Roboto Bold</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p>Aa</p>
+                            <p>Standard Body<br>Roboto</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <p class="small-text">Aa</p>
+                            <p>Small text<br>DM Sans</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section " id="buttons">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Buttons</h3>    
+                </div>
+                <div class="col-12">
+                    <h5>Primary Button</h5>
+                    <p>Used to indicate primary call-to-action, with progressive arrow in its element.
+                        <ul>
+                            <li>Use <code>btn-primary</code></li>
+                            <li>Applying <code>btn-sm</code> will shrink the size to smaller size - may be used in mobile,</li>
+                            <li><code>btn-sm</code> can be used all across buttons variations</li>
+                        </ul>
+                    </p>
+                    <div class="col-12">
+                        <button href="#" class="btn btn-primary" >
+                            <span class="text align-self-center">Primary Button</span>
+                            <i class="icon-arrow-rightlg"></i>
+                        </button>
+                        <button href="#" class="btn btn-primary disabled" >
+                            <span class="text align-self-center">Disabled</span>
+                            <i class="icon-arrow-rightlg"></i>
+                        </button>
+                        <button href="#" class="btn btn-sm btn-primary" >
+                            <span class="text align-self-center">Small</span>
+                            <i class="icon-arrow-rightlg"></i>
+                        </button>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Button Primary **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-primary"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Primary Button &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon-arrow-rightlg"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                                <br>
+                                <text style="color:green;">&#47;** for disabled **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-primary disabled"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Primary Button &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon-arrow-rightlg"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                                <br>
+                                <text style="color:green;">&#47;** Small variant, btn-sm **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-primary btn-sm"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Primary Button &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon-arrow-rightlg"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                            </code>
+                            <!--
+                            <br>
+                            <div class="">
+                                <button class="btn btn-alt btn-sm" title="Copy to clipboard" data-original-title="Copy to clipboard" onclick="copyToClipboard()">Copy&nbsp;&nbsp;<i class="icon fa-solid fa-clone"></i></button>
+                            </div>
+                            -->
+                        </div>
+                    </div>
+                    <br>
+                    <p>For primary call-to-action with icons; in this sample, we are using fa-icons
+                        <ul>
+                            <li>Add <code>class="icon"</code> on <code>i</code> tags before fa-icon class</li>
+                            <li>To differentiate on <i class="icon-arrow-rightlg"></i> icon in primary buttons (those are enlarged icon)</li>
+                        </ul>
+                    </p>
+                    <div class="col-12">
+                        <button href="#" class="btn btn-primary">
+                            <span class="text align-self-center">Primary + icon</span>
+                            <i class="icon fa-solid fa-house"></i>
+                        </button>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Primary Button with icons **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-primary"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Primary + icons &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon fa-solid fa-house"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                            </code>
+                        </div>
+                    </div>
+
+                    <br>
+                    <h5>Secondary Button</h5>
+                    <p>Used to indicate secondary call-to-action,
+                        <ul>
+                            <li>Use <code>btn-secondary</code></li>
+                            <li>Applying <code>btn-sm</code> will shrink the size to smaller size - may be used in mobile,</li>
+                            <li><code>btn-sm</code> can be used all across buttons variations</li>
+                            <li>You can change <code>i</code> elements to another secondary + icons combination, we are using fa-icon in this sample</li>
+                            <li>You may remove <code>i</code> elements to create an alternate version of secondary button</li>
+                        </ul>
+                    </p>
+                    <div class="col-12">
+                        <button href="#" class="btn btn-secondary">
+                            <span class="text align-self-center">Secondary</span>
+                            <i class="icon-arrow-rightlg"></i>
+                        </button>
+                        <button href="#" class="btn btn-secondary" >
+                            <span class="text align-self-center">Secondary + icon</span>
+                            <i class="icon fa-solid fa-house"></i>
+                        </button>
+                        <button href="#" class="btn btn-secondary" >
+                            <span class="text align-self-center">Secondary Alternate</span>
+                        </button>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Secondary button **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-secondary"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Secondary &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon-arrow-rightlg"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                                <br>
+                                <text style="color:green;">&#47;** Secondary + icon **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-secondary"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Secondary &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon fa-solid fa-house"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                                <br>
+                                <text style="color:green;">&#47;** Secondary alternate **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-secondary"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Secondary &lt;/span&gt; <br>
+                                &lt;/button&gt;
+                            </code>
+                        </div>
+                    </div>
+                    
+                    <br>
+                    <h5>Alternate Button</h5>
+                    <p>A simpler variation, and for alternative options
+                        <ul>
+                            <li>Use <code>btn-alt</code></li>
+                            <li>You can change <code>i</code> elements to another secondary + icons combination, we are using fa-icon in this sample</li>
+                        </ul>
+                    </p>
+                    <div class="col-12">
+                        <button href="#" class="btn btn-alt" >
+                            <span class="text align-self-center">Alternate</span>
+                            <i class="icon-arrow-rightlg"></i>
+                        </button>
+                        <button href="#" class="btn btn-alt" >
+                            <span class="text align-self-center">Search</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Alternative button **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-alt"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Alternate &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="icon-arrow-rightlg"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                                <br>
+                                <text style="color:green;">&#47;** with fa-icons combination **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-alt"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Search &lt;/span&gt; <br>
+                                &nbsp;&nbsp;&lt;i class="fa-solid fa-magnifying-glass"&gt;&lt;/i&gt; <br>
+                                &lt;/button&gt;
+                            </code>
+                        </div>
+                    </div>
+
+                    <br>
+                    <h5>Danger Button</h5>
+                    <p>For high impact/ danger action e.g. delete, cancel, and abort.<br>Use <code>btn-danger</code> class.
+                    </p>
+                    <div class="col-12">
+                        <button href="#" class="btn btn-danger">
+                            <span class="text align-self-center">Delete</span>
+                        </button>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Danger button **&#47;</text> <br>
+                                &lt;button href="" class="btn btn-danger"&gt; <br>
+                                &nbsp;&nbsp;&lt;span class="text align-self-center"&gt; Delete &lt;/span&gt; <br>
+                                &lt;/button&gt;
+                            </code>
+                        </div>
+                    </div>
+
+                    <br>
+                    <h5>Underline CTA and Link</h5>
+                    <p>For minor action. The <code>a</code> element are following the default style.<br>Use class <code>underline-cta</code> for a variant style of button.
+                    </p>
+                    <div class="col-12">
+                        Link: <a href="#" class="">johndoe@email.com</a><br>
+                        Underline CTA: <a href="#" class="underline-cta">Clear filter</a>
+                        <div class="highlight">
+                            <code class="language-html" data-lang="html">
+                                <text style="color:green;">&#47;** Underline CTA **&#47;</text> <br>
+                                &lt;a href="" class="underline-cta"&gt;Clear filter &lt;/a&gt; <br><br>
+                                <text style="color:green;">&#47;** CSS Properties for underline-cta **&#47;</text> <br>
+                                a .underline-cta, .underline-cta{ <br>
+                                    &nbsp;&nbsp;font-family: "Roboto";<br>
+                                    &nbsp;&nbsp;font-size: 16px;<br>
+                                    &nbsp;&nbsp;font-style: normal;<br>
+                                    &nbsp;&nbsp;color:#363636;<br>
+                                    &nbsp;&nbsp;text-decoration: underline;<br>
+                                  }<br>
+                                  a .underline-cta:hover, .underline-cta:hover{<br>
+                                    &nbsp;&nbsp;color:#757575;<br>
+                                  }
+                            </code>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+        </section>
+
+        <section class="section" id="forms">
+            <h3>Forms</h3>
+            <div id="forms_text_input">
+                <h5>Text Input</h5>
+                <p>TM Branding input forms are very intuitive.<br>To ensure the elements are in place, try to stay close to example shown below,<br>
+                    <ul>
+                        <li>Use the <code>&lt;form&gt;</code> tag</li> for form group, apply <code>class="form form-group"</code>.
+                        <li>Make sure <code>&lt;input&gt;</code> is declared first before <code>&lt;label&gt;</code>.</li>
+                        <li>The <code>placeholder</code> properties are only visible during <code>::focus</code> state.</li>
+                        <li>Label are required.</li>
+                    </ul>
+                </p>
+                <form class="form form-group" action="#forms_text_input" method="POST">
+                    <div class="form-label-group">
+                        <input type="e-mail" class="form-control form-text required" name="full_name" placeholder="Placeholder" >
+                        <label for="fullname" class="form-label">Label</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="e-mail" class="form-control form-text required" name="full_name" placeholder="Placeholder" disabled>
+                        <label for="fullname" class="form-label">Disabled</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="text" class="form-control" name="full_name" readonly value="Readonly Value">
+                        <label for="fullname" class="form-label">Label</label>
+                    </div>
+                    <!--<button class="btn btn-alt" type="submit" value="Submit"><span class="text align-self-center">Try</span><i class="icon-arrow-rightlg"></i></button>-->
+                </form>
+                <div class="highlight">
+                    <code class="language-html" data-lang="html">
+                        <text style="color:green;">&#47;** input type="text" **&#47;</text> <br>
+                        &lt;div class="form-label-group"&gt;<br>
+                        &nbsp;&nbsp;&lt;input type="text" class="form-control form-text required" name="full_name" placeholder="Placeholder"&gt;<br>
+                        &nbsp;&nbsp;&lt;label for="fullname" class="form-label"&gt;Label&lt;/label&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+            </div>
+
+            <div id="forms_select_combobox">
+                <h5><br>Select & Combobox</h5>
+                <p> WIP?? This is complicated for me hmm.<br>Trying fully customized dropdown; using div instead of
+                </p>
+                <form class="form form-group" action="#forms_select_combobox" method="POST">
+                    <div class="form-label-group">
+                        <select class="form-control form-select" >
+                            <option class="form-option" value="">Select State</option>
+                            <option class="form-option" value="Option 1">Option 1</option>
+                            <option class="form-option" value="Option 2">Option 2</option>
+                        </select>
+                        <label for="state" class="form-label">State</label>
+                    </div>
+                    <div class="form-label-group">
+                        <div class="form-control form-dropdown" >
+                            <div class="selected-option">Please select</div>
+                            <ul class="dropdown-options">
+                                <li class="dropdown-item" value="option1">Option 1</li>
+                                <li class="dropdown-item" value="option1">Option 1</li>
+                                <li class="dropdown-item" value="option1">Option 1</li>
+                            </ul>
+                        </div>
+                        <label for="state" class="form-label">State</label>
+                    </div>
+                </form>
+            </div>
+
+            <div id="forms_etc">
+                <h5><br>Date, Upload, Document, Time and etc.</h5>
+                <p> 
+                </p>
+                <form class="form form-group" action="#forms_etc" method="POST">
+                    <div class="form-label-group">
+                        <input type="date" class="form-control" name="date" >
+                        <label for="date" class="form-label">Date</label>
+                    </div>
+                    <div class="form-label-group">
+                        <input type="upload" class="form-control" name="upload" >
+                        <label for="date" class="form-label">Upload</label>
+                    </div>
+                </form>
+            </div>
+
+            <div id="forms_check">
+                <h5><br>Checks</h5>
+                <p>Pretty much like bootstraps,
+                    <ul>
+                        <li>Add <code>class="form-check"</code> for each options</li>
+                        <li>By default, every options are stacked, add <code>class="form-check form-check-inline"</code> for inline</li>
+                    </ul>
+                </p>
+                <form class="form form-group" action="#forms_check" method="POST">
+                    <div class="form-check">
+                        <input class="form-check-input" name="checkboxtest" type="checkbox" value="1" >
+                        <label class="form-check-label">
+                          First checkbox
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="checkboxtest" type="checkbox" value="2" >
+                        <label class="form-check-label">
+                          Second checkbox
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="checkboxtest" type="checkbox" value="3" disabled >
+                        <label class="form-check-label">
+                          Disabled checkbox
+                        </label>
+                    </div>
+                </form>
+                <div class="highlight">
+                    <code class="language-html" data-lang="html">
+                        <text style="color:green;">&#47;** checkbox" **&#47;</text> <br>
+                        &lt;div class="form-check"&gt;<br>
+                        &nbsp;&nbsp;&lt;input class="form-check-input" name="checkboxtest" type="checkbox" value="1" &gt;<br>
+                        &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              First checkbox
+                              &lt;/label&gt;<br>
+                        &lt;/div&gt;<br>
+                              &lt;div class="form-check"&gt;<br>
+                              &nbsp;&nbsp;&lt;input class="form-check-input" name="checkboxtest" type="checkbox" value="2"&gt;<br>
+                              &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              Second checkbox
+                              &lt;/label&gt;<br>
+                              &lt;/div&gt;<br>
+                              &lt;div class="form-check"&gt;<br>
+                              &nbsp;&nbsp;&lt;input class="form-check-input" name="checkboxtest" type="checkbox" value="3" disabled&gt;<br>
+                              &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              Disabled checkbox
+                              &lt;/label&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+            </div>
+
+            <div id="forms_radio">
+                <h5><br>Radio</h5>
+                <p>Pretty much like bootstraps,
+                    <ul>
+                        <li>Add <code>class="form-check"</code> for each options</li>
+                        <li>By default, every options are stacked, add <code>class="form-check form-check-inline"</code> for inline</li>
+                    </ul>
+                </p>
+                <form class="form form-group" action="#forms_check" method="POST">
+                    <div class="form-check">
+                        <input class="form-check-input" name="radiotest" type="radio" value="1" >
+                        <label class="form-check-label">
+                          First radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="radiotest" type="radio" value="2" >
+                        <label class="form-check-label">
+                          Second radio
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="radiotest" type="radio" value="3" disabled >
+                        <label class="form-check-label">
+                          Disabled radio
+                        </label>
+                    </div>
+                </form>
+                <div class="highlight">
+                    <code class="language-html" data-lang="html">
+                        <text style="color:green;">&#47;** radio buttons" **&#47;</text> <br>
+                        &lt;div class="form-check"&gt;<br>
+                        &nbsp;&nbsp;&lt;input class="form-check-input" name="radiotest" type="radio" value="1" &gt;<br>
+                        &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              First radio
+                              &lt;/label&gt;<br>
+                        &lt;/div&gt;<br>
+                              &lt;div class="form-check"&gt;<br>
+                              &nbsp;&nbsp;&lt;input class="form-check-input" name="radiotest" type="radio" value="2"&gt;<br>
+                              &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              Second radio
+                              &lt;/label&gt;<br>
+                              &lt;/div&gt;<br>
+                              &lt;div class="form-check"&gt;<br>
+                              &nbsp;&nbsp;&lt;input class="form-check-input" name="radiotest" type="radio" value="3" disabled&gt;<br>
+                              &nbsp;&nbsp;&lt;label class="form-check-label"&gt;
+                              Disabled radio
+                              &lt;/label&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="tabs_navigation">
+            <h3><br>Tabs and Navigation</h3>
+            <p>
+
+            </p>
+            
+            <div>
+
+            </div>
+        </section>
+    </div>
+    </body>
+
+    <script>
+        document.querySelector(".form-dropdown").addEventListener("click", function() {
+            document.querySelector(".form-dropdown").classList.toggle("open");
+        });
+
+        let options = document.querySelectorAll(".dropdown-item");
+        options.forEach(function(option) {
+            option.addEventListener("click", function() {
+                let selectedValue = this.innerHTML;
+                document.querySelector(".selected-option").innerHTML = selectedValue;
+                this.parentElement.parentElement.classList.remove("open");
+            });
+        });
+
+    </script>
+  </html>

@@ -1,0 +1,41 @@
+code, kbd, pre, samp {
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.section{
+    border-bottom: 1px solid #2e2e2e;
+    padding: 26px;
+}
+.highlight{
+    padding: 1.5rem;
+    background-color: var(--bs-light);
+}
+.higlight pre{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 0;
+}
+.sidebar{
+    height:100%;
+    width:250px;
+    max-width: 250px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: var(--tm-dark-blue);
+    color: #f9f9f9;
+}
+.sidebar li a{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none !important;
+}
+.sidebar li a .active, .sidebar li a:active, 
+.sidebar li a:hover,.sidebar li a:target{
+    background-color: var(--tm-primary) !important;
+    color: #fff !important;
+}
